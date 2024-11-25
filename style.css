@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.entrada-tarefa {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#nome-tarefa {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+#botao-adicionar {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#botao-adicionar:hover {
+    background-color: #0056b3;
+}
+
+.lista-tarefas {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.lista-tarefas li {
+    font-size: 1rem;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.lista-tarefas li:hover {
+    background-color: #f8f8f8;
+}
