@@ -28,8 +28,8 @@ $(document).ready(function() {
                 $(this).css('text-decoration', 'none'); 
             } else {
                 $(this).css('text-decoration', 'line-through'); 
-        });
-
+            }
+        }); 
         Lista.append(itemLista);
         NomeTarefa.val('');
     });
